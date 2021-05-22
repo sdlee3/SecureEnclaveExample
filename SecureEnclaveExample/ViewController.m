@@ -19,8 +19,6 @@
     [super viewDidLoad];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissKeyboard)];
     [self.view addGestureRecognizer:tap];
-    
-//    _usernameTextField.delegate = self;
 }
 
 - (IBAction)saveAndEncryptDataBtn:(id)sender {
